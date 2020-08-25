@@ -1,15 +1,117 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Annie Eng</title>
     <meta charset="utf-8">
-    <title>TITLE</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"></head>
-  <body>
-  Hi I'm Annie and I'm a Sophomore majoring in Electrical and Computer Engineering
-at Carnegie Mellon University. I enjoy watching funny tik toks and going on Reddit to look at memes.
-My favorite anime is Steins;Gate and I love shopping online for beauty products and clothing.
-I love eating gourmet salad from Sweetgreen, a salad chain located in New York City.
-  <br> <!-- empty tag that has no end tag --> 
-  <a href="https://annieeng17.github.io/Application-Of-Beauty">Application of Beauty</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="new.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="new.js"></script>
+  </head>
+  <style>
+    body {
+    font-family: 'Work Sans';
+    line-height: 1.8;
+    color: #83787e;
+    background-color: #e6ddde;
+}
+    .panel-footer {
+    background-color: #e6ddde;
+}
+    .container-fluid {
+    font-family: 'Work Sans';
+    line-height:1.8;
+    color:  #412c28;
+    background-color:#e6ddde;
+}
+    .border {
+    font-family: 'Work Sans';
+    line-height:1.8;
+    color:  #504644;
+    background-color:#e6ddde;
+}
+    .jumbotron{
+    font-family: 'DM Serif Display';
+    line-height:1.8;
+    color:  #504644;
+    background-color:#d9dfe9;
+
+}
+  </style>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">🌸About Me🌸</a></li>
+              <li><a href="#">🌸Projects🌸</a></li>
+              <li><a href= "https://www.linkedin.com/in/annieeng/" target = "_blank"> 🌸LinkedIn🌸</a></li>
+              <li><a href= "https://github.com/annieeng17/" target = "_blank"> 🌸Github🌸</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center"><h1> Annie Eng </h1>
+    <img src="new.jpg" class="img-thumbnail" style="width:825px;height:500px;"></div>
+    <div id="me" class="container-fluid">
+      <h2>🌸About Me🌸</h2>
+      <div class="border">
+      <p>Hi, my name is Annie Eng! I'm a Sophomore at Carnegie Mellon University studying Electrical 
+      and Computer Engineering. I currently have experience with Python. I am enthusiastic about 
+      learning new things, right now I'm trying to learn a new piece on the piano called <a href= 
+      "https://www.youtube.com/watch?v=KpOtuoHL45Y" target = "_blank">Liebstraum - Love dream</a> 
+      by Franz Liszt.</p> 
+      <p>I'm passionate about increasing diversity and inclusion for women in STEM. I was one of the 
+      only females in my computer science and physics class in high school. But that changed with 
+      one of my first experiences in STEM by being a research intern at New York University, which along
+      the way solidified my interest in engineering. Here's my  <a href =
+      "https://wp.nyu.edu/built/2018/08/21/2018-summer-research-presentations/" target = "_blank">research</a>
+      I presented at the colloquium.
+      </p> On my free time, I love to draw anime, and go on Reddit to look at memes. Here is a progression 
+      of a drawing I created that I'm proud of: </p>
+      <img src="Before1.png" class="img-thumbnail" style="width:375px;height:300px;">
+      <img src="After.jpg" class="img-thumbnail" style="width:390px;height:300px;">
+      <img src="After1.jpg" class="img-thumbnail" style="width:375px;height:300px;">
+      </div>
+    </div>
+
+    <div id="projects" class="container-fluid">
+      <h2>🌸Projects🌸</h2>
+      <p> One of the first independent projects I made with some guidance is 
+      <a href="https://annieeng17.github.io/Application-Of-Beauty" target="_blank"> 
+      Application of Beauty</a>. Created using Python and Computer Vision, I wanted
+      my term project in my cs class to showcase something I like: makeup. I created 
+      geometric shapes in openCV to display where to apply the beauty product, made
+      dictionaries containing color pigments(gbr) to match different skin tones of users,
+      and created a finite state machine to alternate between makeup features. I added
+      some extra features for the user to modify such as a color opacity scale and created 
+      an error prevention button to stop spamming the application. Here's a  <a href="
+      https://www.youtube.com/watch?v=wEJty-sH__E&t=1s" target="_blank"> link </a> 
+      to show how to use the application from beginning til end. I included some
+      photos to show my UI, layout of how I wanted my program to work and a testrun 
+      of one of the skintone feature.</p>
+      <img src="Cover.png" class="img-thumbnail" style="width:375px;height:300px;">
+      <img src="Storyboard-Makeup.png" class="img-thumbnail" style="width:390px;height:300px;">
+      <img src="Me.png" class="img-thumbnail" style="width:375px;height:300px;">
+      </div>
+    </div>
+    <div class="panel-footer">
+      <h5>Made with HTML, CSS, JavaScript, Python</h5>
+    </div>
+   <!-- empty tag that has no end tag --> 
+  
   </body>
 </html>
