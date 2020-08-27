@@ -1,0 +1,78 @@
+/* html{
+    scroll-behavior:smooth;
+} */
+    body {
+    font-family: 'Work Sans';
+    line-height: 1.8;
+    color: #83787e;
+    background-color: #e6ddde;
+}
+    .panel-footer {
+    background-color: #e6ddde;
+}
+    .container-fluid {
+    font-family: 'Work Sans';
+    line-height:1.8;
+    color:  #412c28;
+    background-color:#e6ddde;
+}
+    .border {
+    font-family: 'Work Sans';
+    line-height:1.8;
+    color:  #504644;
+    background-color:#e6ddde;
+}
+    .jumbotron{
+    font-family: 'DM Serif Display';
+    line-height:1.8;
+    color:  #504644;
+    background-color:#d9dfe9;
+}
+    .img-thumbnail{
+    border-radius: 8px;
+    background-color:#e6ddde;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when 
+to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+    /* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8b8b8b; 
+}
+    footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #83787e;
+  }

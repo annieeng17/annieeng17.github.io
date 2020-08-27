@@ -5,51 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="index.css"> 
+    <!--index.css calls on a separate file-->
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="new.js"></script>
+    <script src="index.js"></script>
+    <!--index.js calls on a separate file-->
   </head>
-  <style>
-    html{
-      scroll-behavior:smooth;
-}
-    body {
-    font-family: 'Work Sans';
-    line-height: 1.8;
-    color: #83787e;
-    background-color: #e6ddde;
-}
-    .panel-footer {
-    background-color: #e6ddde;
-}
-    .container-fluid {
-    font-family: 'Work Sans';
-    line-height:1.8;
-    color:  #412c28;
-    background-color:#e6ddde;
-}
-    .border {
-    font-family: 'Work Sans';
-    line-height:1.8;
-    color:  #504644;
-    background-color:#e6ddde;
-}
-    .jumbotron{
-    font-family: 'DM Serif Display';
-    line-height:1.8;
-    color:  #504644;
-    background-color:#d9dfe9;
-
-}
-    .img-thumbnail{
-    border-radius: 8px;
-    background-color:#e6ddde;
-}
-  </style>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -92,7 +57,7 @@
       Here is a progression of a drawing I created that I'm proud of:  </p>
       <img src="Before1.png" class="img-thumbnail" style="width:375px;height:300px;">
       <img src="After.jpg" class="img-thumbnail" style="width:390px;height:300px;">
-      <img src="After1.jpg" class="img-thumbnail" style="width:375px;height:300px;">
+      <img src="After1.jpg" class="img-thumbnail" style="width:374px;height:300px;">
       </div>
     </div>
 
@@ -115,8 +80,7 @@
       to show how to use the application from beginning to end. I included some
       photos to show my UI, layout of how I wanted my program to work, and a testrun 
       of one of the skin tone features.</p>
-      
-      <img src="Cover.png" class="img-thumbnail" style="width:375px;height:300px;">
+      <img src="Cover.png" class="img-thumbnail" style="width:374px;height:300px;">
       <img src="Storyboard-Makeup.png" class="img-thumbnail" style="width:390px;height:300px;">
       <img src="Me.png" class="img-thumbnail" style="width:375px;height:300px;">
       &nbsp;&nbsp; 
@@ -131,15 +95,18 @@
       We made a programming pinball game with added physics features. 
       For the hardware aspect, we connected an Arduino board with an accelerometer 
       to detect hand motion so the game can sense movement to score the ball.
-      There was some malfunction with the equipment since they were fragile, but
-      we adapted to what we had and finished on time.</p>
+      There was some malfunctions with the equipment since they were fragile, 
+      but we adapted to what we had and finished on time.</p>
       <img src="Group.jpg" class="img-thumbnail" style="width:400px;height:300px;">
       <img src="Group1.jpg" class="img-thumbnail" style="width:400px;height:300px;">
       </div>
     </div>
-    <div class="panel-footer">
-      <h5>Made with HTML and CSS </h5>
-    </div>
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <h5>Made with HTML, CSS, and Javascript </h5>
+    </footer>
    <!-- empty tag that has no end tag --> 
   
   </body>
