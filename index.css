@@ -79,8 +79,8 @@ to slide in the element along the Y-axis */
   @media only screen and (min-width: 992px){
     /* Large devices (laptops/desktops, 992px and up)  */
     .img-thumbnail{
-        width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
     }
     
 }
@@ -88,8 +88,8 @@ to slide in the element along the Y-axis */
   @media screen and (max-width: 768px) {
     /* Medium devices (landscape tablets, 768px and up) */
     .img-thumbnail{
-        width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
     }
     
 }
@@ -97,24 +97,24 @@ to slide in the element along the Y-axis */
 @media only screen and (min-width: 600px) {
     /* Small devices (portrait tablets and large phones, 600px and up) */
     .img-thumbnail{
-        width: 400px;
-        height: 300px;
+    max-width: 100%;
+    height: auto;
     }
     
 }
 @media only screen and (max-width: 600px) {
     /* Extra small devices (phones, 600px and down) */
     .img-thumbnail{
-        width: 400px;
-        height: 300px;
+    max-width: 100%;
+    height: auto;
         
     }
     
 }
 @media screen and (max-width: 480px) {
     .img-thumbnail{
-        width: 400px;
-        height: 300px;
+    max-width: 100%;
+    height: auto;
     }
 
 }
