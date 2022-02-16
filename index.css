@@ -30,6 +30,7 @@
 }
     .img-thumbnail{
     border-radius: 8px;
+    /* background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3)); */
     background-color:#e6ddde;
 }
 
@@ -81,6 +82,7 @@ to slide in the element along the Y-axis */
     .img-thumbnail{
     max-width: 100%;
     height: auto;
+    
     }
     
 }
